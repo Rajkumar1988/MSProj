@@ -1,0 +1,1 @@
+echo hi > c:\hi.txt

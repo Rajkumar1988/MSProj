@@ -1,0 +1,10 @@
+E:\Calculator\MyTest1\bin\Debug\MyTest1.dll
+E:\Calculator\MyTest1\bin\Debug\MyTest1.pdb
+E:\Calculator\MyTest1\bin\Debug\Calculator.exe
+E:\Calculator\MyTest1\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\Calculator\MyTest1\bin\Debug\Calculator.pdb
+E:\Calculator\MyTest1\bin\Debug\Calculator_Accessor.exe
+E:\Calculator\MyTest1\bin\Debug\Calculator_Accessor.pdb
+E:\Calculator\MyTest1\obj\Debug\MyTest1.csprojResolveAssemblyReference.cache
+E:\Calculator\MyTest1\obj\Debug\MyTest1.dll
+E:\Calculator\MyTest1\obj\Debug\MyTest1.pdb

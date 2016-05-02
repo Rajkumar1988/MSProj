@@ -1,0 +1,10 @@
+C:\Program Files (x86)\Jenkins\jobs\MicrosoftCodeCompilation\workspace\Calculator\bin\Release\Calculator.exe
+C:\Program Files (x86)\Jenkins\jobs\MicrosoftCodeCompilation\workspace\Calculator\bin\Release\Calculator.pdb
+C:\Program Files (x86)\Jenkins\jobs\MicrosoftCodeCompilation\workspace\Calculator\obj\Release\Calculator.csprojResolveAssemblyReference.cache
+C:\Program Files (x86)\Jenkins\jobs\MicrosoftCodeCompilation\workspace\Calculator\obj\Release\Calculator.exe
+C:\Program Files (x86)\Jenkins\jobs\MicrosoftCodeCompilation\workspace\Calculator\obj\Release\Calculator.pdb
+E:\Calculator\Calculator\obj\Release\Calculator.exe
+E:\Calculator\Calculator\obj\Release\Calculator.pdb
+E:\Calculator\Calculator\bin\Release\Calculator.exe
+E:\Calculator\Calculator\bin\Release\Calculator.pdb
+E:\Calculator\Calculator\obj\Release\Calculator.csprojResolveAssemblyReference.cache

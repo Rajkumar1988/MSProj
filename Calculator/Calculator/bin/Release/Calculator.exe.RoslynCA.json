@@ -1,0 +1,959 @@
+{
+  "version": "0.4",
+  "runLogs": [
+    {
+      "toolInfo": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "1.2.0",
+        "fileVersion": "1.2.0.60317"
+      },
+      "results": [
+        {
+          "ruleId": "S125",
+          "kind": "warning",
+          "locations": [
+            {
+              "analysisTarget": [
+                {
+                  "uri": "file:\/\/\/E:\/Calculator\/Calculator\/MyCalculator.cs",
+                  "region": {
+                    "startLine": 87,
+                    "startColumn": 21,
+                    "endLine": 87,
+                    "endColumn": 55
+                  }
+                }
+              ]
+            }
+          ],
+          "shortMessage": "Remove this commented out code.",
+          "fullMessage": "Programmers should not comment out code as it bloats programs and reduces readability. Unused code should be deleted and can be retrieved from source control history if required.",
+          "isSuppressedInSource": false,
+          "properties": {
+            "severity": "Warning",
+            "warningLevel": "1",
+            "defaultSeverity": "Warning",
+            "title": "Sections of code should not be \"commented out\"",
+            "category": "Maintainability",
+            "helpLink": "http:\/\/vs.sonarlint.org\/rules\/index.html#version=1.10.0&ruleId=S125",
+            "isEnabledByDefault": "True"
+          }
+        },
+        {
+          "ruleId": "S125",
+          "kind": "warning",
+          "locations": [
+            {
+              "analysisTarget": [
+                {
+                  "uri": "file:\/\/\/E:\/Calculator\/Calculator\/MyCalculator.cs",
+                  "region": {
+                    "startLine": 103,
+                    "startColumn": 17,
+                    "endLine": 103,
+                    "endColumn": 31
+                  }
+                }
+              ]
+            }
+          ],
+          "shortMessage": "Remove this commented out code.",
+          "fullMessage": "Programmers should not comment out code as it bloats programs and reduces readability. Unused code should be deleted and can be retrieved from source control history if required.",
+          "isSuppressedInSource": false,
+          "properties": {
+            "severity": "Warning",
+            "warningLevel": "1",
+            "defaultSeverity": "Warning",
+            "title": "Sections of code should not be \"commented out\"",
+            "category": "Maintainability",
+            "helpLink": "http:\/\/vs.sonarlint.org\/rules\/index.html#version=1.10.0&ruleId=S125",
+            "isEnabledByDefault": "True"
+          }
+        },
+        {
+          "ruleId": "S125",
+          "kind": "warning",
+          "locations": [
+            {
+              "analysisTarget": [
+                {
+                  "uri": "file:\/\/\/E:\/Calculator\/Calculator\/MyCalculator.cs",
+                  "region": {
+                    "startLine": 119,
+                    "startColumn": 16,
+                    "endLine": 119,
+                    "endColumn": 31
+                  }
+                }
+              ]
+            }
+          ],
+          "shortMessage": "Remove this commented out code.",
+          "fullMessage": "Programmers should not comment out code as it bloats programs and reduces readability. Unused code should be deleted and can be retrieved from source control history if required.",
+          "isSuppressedInSource": false,
+          "properties": {
+            "severity": "Warning",
+            "warningLevel": "1",
+            "defaultSeverity": "Warning",
+            "title": "Sections of code should not be \"commented out\"",
+            "category": "Maintainability",
+            "helpLink": "http:\/\/vs.sonarlint.org\/rules\/index.html#version=1.10.0&ruleId=S125",
+            "isEnabledByDefault": "True"
+          }
+        },
+        {
+          "ruleId": "S1118",
+          "kind": "warning",
+          "locations": [
+            {
+              "analysisTarget": [
+                {
+                  "uri": "file:\/\/\/E:\/Calculator\/Calculator\/Program.cs",
+                  "region": {
+                    "startLine": 8,
+                    "startColumn": 11,
+                    "endLine": 8,
+                    "endColumn": 18
+                  }
+                }
+              ]
+            }
+          ],
+          "shortMessage": "Add a \"protected\" constructor or the \"static\" keyword to the class declaration.",
+          "fullMessage": "Utility classes, which are collections of \"static\" members, are not meant to be instantiated. Even \"abstract\" utility classes, which can be extended, should not have \"public\" constructors. C# adds an implicit public constructor to every class which does not explicitly define at least one constructor. Hence, at least one \"protected\" constructor should be defined if you wish to subclass this utility class. Or the \"static\" keyword should be added to the class declaration to prevent subclassing.",
+          "isSuppressedInSource": false,
+          "properties": {
+            "severity": "Warning",
+            "warningLevel": "1",
+            "defaultSeverity": "Warning",
+            "title": "Utility classes should not have public constructors",
+            "category": "Design",
+            "helpLink": "http:\/\/vs.sonarlint.org\/rules\/index.html#version=1.10.0&ruleId=S1118",
+            "isEnabledByDefault": "True"
+          }
+        },
+        {
+          "ruleId": "S3052",
+          "kind": "warning",
+          "locations": [
+            {
+              "analysisTarget": [
+                {
+                  "uri": "file:\/\/\/E:\/Calculator\/Calculator\/MyCalculator.cs",
+                  "region": {
+                    "startLine": 11,
+                    "startColumn": 21,
+                    "endLine": 11,
+                    "endColumn": 23
+                  }
+                }
+              ]
+            }
+          ],
+          "shortMessage": "Remove this initialization to \"operand1\", the compiler will do that for you.",
+          "fullMessage": "The compiler automatically initializes class fields to their default values before setting them with any initialization values, so there is no need to explicitly set a field to its default value, but doing. Further, under the logic that cleaner code is better code, it's considered poor style to do so.",
+          "isSuppressedInSource": false,
+          "tags": [
+            "Unnecessary"
+          ],
+          "properties": {
+            "severity": "Warning",
+            "warningLevel": "1",
+            "defaultSeverity": "Hidden",
+            "title": "Fields should not be initialized to default values",
+            "category": "Maintainability",
+            "helpLink": "http:\/\/vs.sonarlint.org\/rules\/index.html#version=1.10.0&ruleId=S3052",
+            "isEnabledByDefault": "True"
+          }
+        },
+        {
+          "ruleId": "S3052",
+          "kind": "warning",
+          "locations": [
+            {
+              "analysisTarget": [
+                {
+                  "uri": "file:\/\/\/E:\/Calculator\/Calculator\/MyCalculator.cs",
+                  "region": {
+                    "startLine": 12,
+                    "startColumn": 21,
+                    "endLine": 12,
+                    "endColumn": 23
+                  }
+                }
+              ]
+            }
+          ],
+          "shortMessage": "Remove this initialization to \"operand2\", the compiler will do that for you.",
+          "fullMessage": "The compiler automatically initializes class fields to their default values before setting them with any initialization values, so there is no need to explicitly set a field to its default value, but doing. Further, under the logic that cleaner code is better code, it's considered poor style to do so.",
+          "isSuppressedInSource": false,
+          "tags": [
+            "Unnecessary"
+          ],
+          "properties": {
+            "severity": "Warning",
+            "warningLevel": "1",
+            "defaultSeverity": "Hidden",
+            "title": "Fields should not be initialized to default values",
+            "category": "Maintainability",
+            "helpLink": "http:\/\/vs.sonarlint.org\/rules\/index.html#version=1.10.0&ruleId=S3052",
+            "isEnabledByDefault": "True"
+          }
+        },
+        {
+          "ruleId": "S3052",
+          "kind": "warning",
+          "locations": [
+            {
+              "analysisTarget": [
+                {
+                  "uri": "file:\/\/\/E:\/Calculator\/Calculator\/MyCalculator.cs",
+                  "region": {
+                    "startLine": 13,
+                    "startColumn": 19,
+                    "endLine": 13,
+                    "endColumn": 21
+                  }
+                }
+              ]
+            }
+          ],
+          "shortMessage": "Remove this initialization to \"choice\", the compiler will do that for you.",
+          "fullMessage": "The compiler automatically initializes class fields to their default values before setting them with any initialization values, so there is no need to explicitly set a field to its default value, but doing. Further, under the logic that cleaner code is better code, it's considered poor style to do so.",
+          "isSuppressedInSource": false,
+          "tags": [
+            "Unnecessary"
+          ],
+          "properties": {
+            "severity": "Warning",
+            "warningLevel": "1",
+            "defaultSeverity": "Hidden",
+            "title": "Fields should not be initialized to default values",
+            "category": "Maintainability",
+            "helpLink": "http:\/\/vs.sonarlint.org\/rules\/index.html#version=1.10.0&ruleId=S3052",
+            "isEnabledByDefault": "True"
+          }
+        },
+        {
+          "ruleId": "S3052",
+          "kind": "warning",
+          "locations": [
+            {
+              "analysisTarget": [
+                {
+                  "uri": "file:\/\/\/E:\/Calculator\/Calculator\/MyCalculator.cs",
+                  "region": {
+                    "startLine": 14,
+                    "startColumn": 20,
+                    "endLine": 14,
+                    "endColumn": 22
+                  }
+                }
+              ]
+            }
+          ],
+          "shortMessage": "Remove this initialization to \"result1\", the compiler will do that for you.",
+          "fullMessage": "The compiler automatically initializes class fields to their default values before setting them with any initialization values, so there is no need to explicitly set a field to its default value, but doing. Further, under the logic that cleaner code is better code, it's considered poor style to do so.",
+          "isSuppressedInSource": false,
+          "tags": [
+            "Unnecessary"
+          ],
+          "properties": {
+            "severity": "Warning",
+            "warningLevel": "1",
+            "defaultSeverity": "Hidden",
+            "title": "Fields should not be initialized to default values",
+            "category": "Maintainability",
+            "helpLink": "http:\/\/vs.sonarlint.org\/rules\/index.html#version=1.10.0&ruleId=S3052",
+            "isEnabledByDefault": "True"
+          }
+        },
+        {
+          "ruleId": "S3052",
+          "kind": "warning",
+          "locations": [
+            {
+              "analysisTarget": [
+                {
+                  "uri": "file:\/\/\/E:\/Calculator\/Calculator\/MyCalculator.cs",
+                  "region": {
+                    "startLine": 15,
+                    "startColumn": 20,
+                    "endLine": 15,
+                    "endColumn": 22
+                  }
+                }
+              ]
+            }
+          ],
+          "shortMessage": "Remove this initialization to \"result2\", the compiler will do that for you.",
+          "fullMessage": "The compiler automatically initializes class fields to their default values before setting them with any initialization values, so there is no need to explicitly set a field to its default value, but doing. Further, under the logic that cleaner code is better code, it's considered poor style to do so.",
+          "isSuppressedInSource": false,
+          "tags": [
+            "Unnecessary"
+          ],
+          "properties": {
+            "severity": "Warning",
+            "warningLevel": "1",
+            "defaultSeverity": "Hidden",
+            "title": "Fields should not be initialized to default values",
+            "category": "Maintainability",
+            "helpLink": "http:\/\/vs.sonarlint.org\/rules\/index.html#version=1.10.0&ruleId=S3052",
+            "isEnabledByDefault": "True"
+          }
+        },
+        {
+          "ruleId": "S2228",
+          "kind": "warning",
+          "locations": [
+            {
+              "analysisTarget": [
+                {
+                  "uri": "file:\/\/\/E:\/Calculator\/Calculator\/MyCalculator.cs",
+                  "region": {
+                    "startLine": 19,
+                    "startColumn": 13,
+                    "endLine": 19,
+                    "endColumn": 26
+                  }
+                }
+              ]
+            }
+          ],
+          "shortMessage": "Remove this logging statement.",
+          "fullMessage": "Debug statements are always useful during development. But include them in production code - particularly in code that runs client-side - and you run the risk of inadvertently exposing sensitive information.",
+          "isSuppressedInSource": false,
+          "properties": {
+            "severity": "Warning",
+            "warningLevel": "1",
+            "defaultSeverity": "Warning",
+            "title": "Console logging should not be used",
+            "category": "Portability",
+            "helpLink": "http:\/\/vs.sonarlint.org\/rules\/index.html#version=1.10.0&ruleId=S2228",
+            "isEnabledByDefault": "False"
+          }
+        },
+        {
+          "ruleId": "S2228",
+          "kind": "warning",
+          "locations": [
+            {
+              "analysisTarget": [
+                {
+                  "uri": "file:\/\/\/E:\/Calculator\/Calculator\/MyCalculator.cs",
+                  "region": {
+                    "startLine": 21,
+                    "startColumn": 13,
+                    "endLine": 21,
+                    "endColumn": 26
+                  }
+                }
+              ]
+            }
+          ],
+          "shortMessage": "Remove this logging statement.",
+          "fullMessage": "Debug statements are always useful during development. But include them in production code - particularly in code that runs client-side - and you run the risk of inadvertently exposing sensitive information.",
+          "isSuppressedInSource": false,
+          "properties": {
+            "severity": "Warning",
+            "warningLevel": "1",
+            "defaultSeverity": "Warning",
+            "title": "Console logging should not be used",
+            "category": "Portability",
+            "helpLink": "http:\/\/vs.sonarlint.org\/rules\/index.html#version=1.10.0&ruleId=S2228",
+            "isEnabledByDefault": "False"
+          }
+        },
+        {
+          "ruleId": "S2228",
+          "kind": "warning",
+          "locations": [
+            {
+              "analysisTarget": [
+                {
+                  "uri": "file:\/\/\/E:\/Calculator\/Calculator\/MyCalculator.cs",
+                  "region": {
+                    "startLine": 86,
+                    "startColumn": 21,
+                    "endLine": 86,
+                    "endColumn": 38
+                  }
+                }
+              ]
+            }
+          ],
+          "shortMessage": "Remove this logging statement.",
+          "fullMessage": "Debug statements are always useful during development. But include them in production code - particularly in code that runs client-side - and you run the risk of inadvertently exposing sensitive information.",
+          "isSuppressedInSource": false,
+          "properties": {
+            "severity": "Warning",
+            "warningLevel": "1",
+            "defaultSeverity": "Warning",
+            "title": "Console logging should not be used",
+            "category": "Portability",
+            "helpLink": "http:\/\/vs.sonarlint.org\/rules\/index.html#version=1.10.0&ruleId=S2228",
+            "isEnabledByDefault": "False"
+          }
+        },
+        {
+          "ruleId": "S2228",
+          "kind": "warning",
+          "locations": [
+            {
+              "analysisTarget": [
+                {
+                  "uri": "file:\/\/\/E:\/Calculator\/Calculator\/MyCalculator.cs",
+                  "region": {
+                    "startLine": 92,
+                    "startColumn": 21,
+                    "endLine": 92,
+                    "endColumn": 38
+                  }
+                }
+              ]
+            }
+          ],
+          "shortMessage": "Remove this logging statement.",
+          "fullMessage": "Debug statements are always useful during development. But include them in production code - particularly in code that runs client-side - and you run the risk of inadvertently exposing sensitive information.",
+          "isSuppressedInSource": false,
+          "properties": {
+            "severity": "Warning",
+            "warningLevel": "1",
+            "defaultSeverity": "Warning",
+            "title": "Console logging should not be used",
+            "category": "Portability",
+            "helpLink": "http:\/\/vs.sonarlint.org\/rules\/index.html#version=1.10.0&ruleId=S2228",
+            "isEnabledByDefault": "False"
+          }
+        },
+        {
+          "ruleId": "S2228",
+          "kind": "warning",
+          "locations": [
+            {
+              "analysisTarget": [
+                {
+                  "uri": "file:\/\/\/E:\/Calculator\/Calculator\/MyCalculator.cs",
+                  "region": {
+                    "startLine": 118,
+                    "startColumn": 17,
+                    "endLine": 118,
+                    "endColumn": 34
+                  }
+                }
+              ]
+            }
+          ],
+          "shortMessage": "Remove this logging statement.",
+          "fullMessage": "Debug statements are always useful during development. But include them in production code - particularly in code that runs client-side - and you run the risk of inadvertently exposing sensitive information.",
+          "isSuppressedInSource": false,
+          "properties": {
+            "severity": "Warning",
+            "warningLevel": "1",
+            "defaultSeverity": "Warning",
+            "title": "Console logging should not be used",
+            "category": "Portability",
+            "helpLink": "http:\/\/vs.sonarlint.org\/rules\/index.html#version=1.10.0&ruleId=S2228",
+            "isEnabledByDefault": "False"
+          }
+        },
+        {
+          "ruleId": "S2228",
+          "kind": "warning",
+          "locations": [
+            {
+              "analysisTarget": [
+                {
+                  "uri": "file:\/\/\/E:\/Calculator\/Calculator\/MyCalculator.cs",
+                  "region": {
+                    "startLine": 123,
+                    "startColumn": 17,
+                    "endLine": 123,
+                    "endColumn": 34
+                  }
+                }
+              ]
+            }
+          ],
+          "shortMessage": "Remove this logging statement.",
+          "fullMessage": "Debug statements are always useful during development. But include them in production code - particularly in code that runs client-side - and you run the risk of inadvertently exposing sensitive information.",
+          "isSuppressedInSource": false,
+          "properties": {
+            "severity": "Warning",
+            "warningLevel": "1",
+            "defaultSeverity": "Warning",
+            "title": "Console logging should not be used",
+            "category": "Portability",
+            "helpLink": "http:\/\/vs.sonarlint.org\/rules\/index.html#version=1.10.0&ruleId=S2228",
+            "isEnabledByDefault": "False"
+          }
+        },
+        {
+          "ruleId": "S2228",
+          "kind": "warning",
+          "locations": [
+            {
+              "analysisTarget": [
+                {
+                  "uri": "file:\/\/\/E:\/Calculator\/Calculator\/MyCalculator.cs",
+                  "region": {
+                    "startLine": 102,
+                    "startColumn": 17,
+                    "endLine": 102,
+                    "endColumn": 34
+                  }
+                }
+              ]
+            }
+          ],
+          "shortMessage": "Remove this logging statement.",
+          "fullMessage": "Debug statements are always useful during development. But include them in production code - particularly in code that runs client-side - and you run the risk of inadvertently exposing sensitive information.",
+          "isSuppressedInSource": false,
+          "properties": {
+            "severity": "Warning",
+            "warningLevel": "1",
+            "defaultSeverity": "Warning",
+            "title": "Console logging should not be used",
+            "category": "Portability",
+            "helpLink": "http:\/\/vs.sonarlint.org\/rules\/index.html#version=1.10.0&ruleId=S2228",
+            "isEnabledByDefault": "False"
+          }
+        },
+        {
+          "ruleId": "S2228",
+          "kind": "warning",
+          "locations": [
+            {
+              "analysisTarget": [
+                {
+                  "uri": "file:\/\/\/E:\/Calculator\/Calculator\/MyCalculator.cs",
+                  "region": {
+                    "startLine": 108,
+                    "startColumn": 17,
+                    "endLine": 108,
+                    "endColumn": 34
+                  }
+                }
+              ]
+            }
+          ],
+          "shortMessage": "Remove this logging statement.",
+          "fullMessage": "Debug statements are always useful during development. But include them in production code - particularly in code that runs client-side - and you run the risk of inadvertently exposing sensitive information.",
+          "isSuppressedInSource": false,
+          "properties": {
+            "severity": "Warning",
+            "warningLevel": "1",
+            "defaultSeverity": "Warning",
+            "title": "Console logging should not be used",
+            "category": "Portability",
+            "helpLink": "http:\/\/vs.sonarlint.org\/rules\/index.html#version=1.10.0&ruleId=S2228",
+            "isEnabledByDefault": "False"
+          }
+        },
+        {
+          "ruleId": "S2228",
+          "kind": "warning",
+          "locations": [
+            {
+              "analysisTarget": [
+                {
+                  "uri": "file:\/\/\/E:\/Calculator\/Calculator\/MyCalculator.cs",
+                  "region": {
+                    "startLine": 134,
+                    "startColumn": 17,
+                    "endLine": 134,
+                    "endColumn": 34
+                  }
+                }
+              ]
+            }
+          ],
+          "shortMessage": "Remove this logging statement.",
+          "fullMessage": "Debug statements are always useful during development. But include them in production code - particularly in code that runs client-side - and you run the risk of inadvertently exposing sensitive information.",
+          "isSuppressedInSource": false,
+          "properties": {
+            "severity": "Warning",
+            "warningLevel": "1",
+            "defaultSeverity": "Warning",
+            "title": "Console logging should not be used",
+            "category": "Portability",
+            "helpLink": "http:\/\/vs.sonarlint.org\/rules\/index.html#version=1.10.0&ruleId=S2228",
+            "isEnabledByDefault": "False"
+          }
+        },
+        {
+          "ruleId": "S2228",
+          "kind": "warning",
+          "locations": [
+            {
+              "analysisTarget": [
+                {
+                  "uri": "file:\/\/\/E:\/Calculator\/Calculator\/MyCalculator.cs",
+                  "region": {
+                    "startLine": 135,
+                    "startColumn": 17,
+                    "endLine": 135,
+                    "endColumn": 34
+                  }
+                }
+              ]
+            }
+          ],
+          "shortMessage": "Remove this logging statement.",
+          "fullMessage": "Debug statements are always useful during development. But include them in production code - particularly in code that runs client-side - and you run the risk of inadvertently exposing sensitive information.",
+          "isSuppressedInSource": false,
+          "properties": {
+            "severity": "Warning",
+            "warningLevel": "1",
+            "defaultSeverity": "Warning",
+            "title": "Console logging should not be used",
+            "category": "Portability",
+            "helpLink": "http:\/\/vs.sonarlint.org\/rules\/index.html#version=1.10.0&ruleId=S2228",
+            "isEnabledByDefault": "False"
+          }
+        },
+        {
+          "ruleId": "S2228",
+          "kind": "warning",
+          "locations": [
+            {
+              "analysisTarget": [
+                {
+                  "uri": "file:\/\/\/E:\/Calculator\/Calculator\/MyCalculator.cs",
+                  "region": {
+                    "startLine": 139,
+                    "startColumn": 17,
+                    "endLine": 139,
+                    "endColumn": 34
+                  }
+                }
+              ]
+            }
+          ],
+          "shortMessage": "Remove this logging statement.",
+          "fullMessage": "Debug statements are always useful during development. But include them in production code - particularly in code that runs client-side - and you run the risk of inadvertently exposing sensitive information.",
+          "isSuppressedInSource": false,
+          "properties": {
+            "severity": "Warning",
+            "warningLevel": "1",
+            "defaultSeverity": "Warning",
+            "title": "Console logging should not be used",
+            "category": "Portability",
+            "helpLink": "http:\/\/vs.sonarlint.org\/rules\/index.html#version=1.10.0&ruleId=S2228",
+            "isEnabledByDefault": "False"
+          }
+        },
+        {
+          "ruleId": "S2228",
+          "kind": "warning",
+          "locations": [
+            {
+              "analysisTarget": [
+                {
+                  "uri": "file:\/\/\/E:\/Calculator\/Calculator\/MyCalculator.cs",
+                  "region": {
+                    "startLine": 32,
+                    "startColumn": 13,
+                    "endLine": 32,
+                    "endColumn": 30
+                  }
+                }
+              ]
+            }
+          ],
+          "shortMessage": "Remove this logging statement.",
+          "fullMessage": "Debug statements are always useful during development. But include them in production code - particularly in code that runs client-side - and you run the risk of inadvertently exposing sensitive information.",
+          "isSuppressedInSource": false,
+          "properties": {
+            "severity": "Warning",
+            "warningLevel": "1",
+            "defaultSeverity": "Warning",
+            "title": "Console logging should not be used",
+            "category": "Portability",
+            "helpLink": "http:\/\/vs.sonarlint.org\/rules\/index.html#version=1.10.0&ruleId=S2228",
+            "isEnabledByDefault": "False"
+          }
+        },
+        {
+          "ruleId": "S2228",
+          "kind": "warning",
+          "locations": [
+            {
+              "analysisTarget": [
+                {
+                  "uri": "file:\/\/\/E:\/Calculator\/Calculator\/MyCalculator.cs",
+                  "region": {
+                    "startLine": 33,
+                    "startColumn": 13,
+                    "endLine": 33,
+                    "endColumn": 30
+                  }
+                }
+              ]
+            }
+          ],
+          "shortMessage": "Remove this logging statement.",
+          "fullMessage": "Debug statements are always useful during development. But include them in production code - particularly in code that runs client-side - and you run the risk of inadvertently exposing sensitive information.",
+          "isSuppressedInSource": false,
+          "properties": {
+            "severity": "Warning",
+            "warningLevel": "1",
+            "defaultSeverity": "Warning",
+            "title": "Console logging should not be used",
+            "category": "Portability",
+            "helpLink": "http:\/\/vs.sonarlint.org\/rules\/index.html#version=1.10.0&ruleId=S2228",
+            "isEnabledByDefault": "False"
+          }
+        },
+        {
+          "ruleId": "S2228",
+          "kind": "warning",
+          "locations": [
+            {
+              "analysisTarget": [
+                {
+                  "uri": "file:\/\/\/E:\/Calculator\/Calculator\/MyCalculator.cs",
+                  "region": {
+                    "startLine": 34,
+                    "startColumn": 13,
+                    "endLine": 34,
+                    "endColumn": 30
+                  }
+                }
+              ]
+            }
+          ],
+          "shortMessage": "Remove this logging statement.",
+          "fullMessage": "Debug statements are always useful during development. But include them in production code - particularly in code that runs client-side - and you run the risk of inadvertently exposing sensitive information.",
+          "isSuppressedInSource": false,
+          "properties": {
+            "severity": "Warning",
+            "warningLevel": "1",
+            "defaultSeverity": "Warning",
+            "title": "Console logging should not be used",
+            "category": "Portability",
+            "helpLink": "http:\/\/vs.sonarlint.org\/rules\/index.html#version=1.10.0&ruleId=S2228",
+            "isEnabledByDefault": "False"
+          }
+        },
+        {
+          "ruleId": "S2228",
+          "kind": "warning",
+          "locations": [
+            {
+              "analysisTarget": [
+                {
+                  "uri": "file:\/\/\/E:\/Calculator\/Calculator\/MyCalculator.cs",
+                  "region": {
+                    "startLine": 35,
+                    "startColumn": 13,
+                    "endLine": 35,
+                    "endColumn": 30
+                  }
+                }
+              ]
+            }
+          ],
+          "shortMessage": "Remove this logging statement.",
+          "fullMessage": "Debug statements are always useful during development. But include them in production code - particularly in code that runs client-side - and you run the risk of inadvertently exposing sensitive information.",
+          "isSuppressedInSource": false,
+          "properties": {
+            "severity": "Warning",
+            "warningLevel": "1",
+            "defaultSeverity": "Warning",
+            "title": "Console logging should not be used",
+            "category": "Portability",
+            "helpLink": "http:\/\/vs.sonarlint.org\/rules\/index.html#version=1.10.0&ruleId=S2228",
+            "isEnabledByDefault": "False"
+          }
+        },
+        {
+          "ruleId": "S2228",
+          "kind": "warning",
+          "locations": [
+            {
+              "analysisTarget": [
+                {
+                  "uri": "file:\/\/\/E:\/Calculator\/Calculator\/MyCalculator.cs",
+                  "region": {
+                    "startLine": 36,
+                    "startColumn": 13,
+                    "endLine": 36,
+                    "endColumn": 30
+                  }
+                }
+              ]
+            }
+          ],
+          "shortMessage": "Remove this logging statement.",
+          "fullMessage": "Debug statements are always useful during development. But include them in production code - particularly in code that runs client-side - and you run the risk of inadvertently exposing sensitive information.",
+          "isSuppressedInSource": false,
+          "properties": {
+            "severity": "Warning",
+            "warningLevel": "1",
+            "defaultSeverity": "Warning",
+            "title": "Console logging should not be used",
+            "category": "Portability",
+            "helpLink": "http:\/\/vs.sonarlint.org\/rules\/index.html#version=1.10.0&ruleId=S2228",
+            "isEnabledByDefault": "False"
+          }
+        },
+        {
+          "ruleId": "S2228",
+          "kind": "warning",
+          "locations": [
+            {
+              "analysisTarget": [
+                {
+                  "uri": "file:\/\/\/E:\/Calculator\/Calculator\/MyCalculator.cs",
+                  "region": {
+                    "startLine": 37,
+                    "startColumn": 13,
+                    "endLine": 37,
+                    "endColumn": 30
+                  }
+                }
+              ]
+            }
+          ],
+          "shortMessage": "Remove this logging statement.",
+          "fullMessage": "Debug statements are always useful during development. But include them in production code - particularly in code that runs client-side - and you run the risk of inadvertently exposing sensitive information.",
+          "isSuppressedInSource": false,
+          "properties": {
+            "severity": "Warning",
+            "warningLevel": "1",
+            "defaultSeverity": "Warning",
+            "title": "Console logging should not be used",
+            "category": "Portability",
+            "helpLink": "http:\/\/vs.sonarlint.org\/rules\/index.html#version=1.10.0&ruleId=S2228",
+            "isEnabledByDefault": "False"
+          }
+        },
+        {
+          "ruleId": "S2228",
+          "kind": "warning",
+          "locations": [
+            {
+              "analysisTarget": [
+                {
+                  "uri": "file:\/\/\/E:\/Calculator\/Calculator\/MyCalculator.cs",
+                  "region": {
+                    "startLine": 38,
+                    "startColumn": 13,
+                    "endLine": 38,
+                    "endColumn": 30
+                  }
+                }
+              ]
+            }
+          ],
+          "shortMessage": "Remove this logging statement.",
+          "fullMessage": "Debug statements are always useful during development. But include them in production code - particularly in code that runs client-side - and you run the risk of inadvertently exposing sensitive information.",
+          "isSuppressedInSource": false,
+          "properties": {
+            "severity": "Warning",
+            "warningLevel": "1",
+            "defaultSeverity": "Warning",
+            "title": "Console logging should not be used",
+            "category": "Portability",
+            "helpLink": "http:\/\/vs.sonarlint.org\/rules\/index.html#version=1.10.0&ruleId=S2228",
+            "isEnabledByDefault": "False"
+          }
+        },
+        {
+          "ruleId": "S2228",
+          "kind": "warning",
+          "locations": [
+            {
+              "analysisTarget": [
+                {
+                  "uri": "file:\/\/\/E:\/Calculator\/Calculator\/MyCalculator.cs",
+                  "region": {
+                    "startLine": 39,
+                    "startColumn": 13,
+                    "endLine": 39,
+                    "endColumn": 26
+                  }
+                }
+              ]
+            }
+          ],
+          "shortMessage": "Remove this logging statement.",
+          "fullMessage": "Debug statements are always useful during development. But include them in production code - particularly in code that runs client-side - and you run the risk of inadvertently exposing sensitive information.",
+          "isSuppressedInSource": false,
+          "properties": {
+            "severity": "Warning",
+            "warningLevel": "1",
+            "defaultSeverity": "Warning",
+            "title": "Console logging should not be used",
+            "category": "Portability",
+            "helpLink": "http:\/\/vs.sonarlint.org\/rules\/index.html#version=1.10.0&ruleId=S2228",
+            "isEnabledByDefault": "False"
+          }
+        },
+        {
+          "ruleId": "S2228",
+          "kind": "warning",
+          "locations": [
+            {
+              "analysisTarget": [
+                {
+                  "uri": "file:\/\/\/E:\/Calculator\/Calculator\/MyCalculator.cs",
+                  "region": {
+                    "startLine": 74,
+                    "startColumn": 17,
+                    "endLine": 74,
+                    "endColumn": 34
+                  }
+                }
+              ]
+            }
+          ],
+          "shortMessage": "Remove this logging statement.",
+          "fullMessage": "Debug statements are always useful during development. But include them in production code - particularly in code that runs client-side - and you run the risk of inadvertently exposing sensitive information.",
+          "isSuppressedInSource": false,
+          "properties": {
+            "severity": "Warning",
+            "warningLevel": "1",
+            "defaultSeverity": "Warning",
+            "title": "Console logging should not be used",
+            "category": "Portability",
+            "helpLink": "http:\/\/vs.sonarlint.org\/rules\/index.html#version=1.10.0&ruleId=S2228",
+            "isEnabledByDefault": "False"
+          }
+        },
+        {
+          "ruleId": "S2228",
+          "kind": "warning",
+          "locations": [
+            {
+              "analysisTarget": [
+                {
+                  "uri": "file:\/\/\/E:\/Calculator\/Calculator\/MyCalculator.cs",
+                  "region": {
+                    "startLine": 75,
+                    "startColumn": 17,
+                    "endLine": 75,
+                    "endColumn": 34
+                  }
+                }
+              ]
+            }
+          ],
+          "shortMessage": "Remove this logging statement.",
+          "fullMessage": "Debug statements are always useful during development. But include them in production code - particularly in code that runs client-side - and you run the risk of inadvertently exposing sensitive information.",
+          "isSuppressedInSource": false,
+          "properties": {
+            "severity": "Warning",
+            "warningLevel": "1",
+            "defaultSeverity": "Warning",
+            "title": "Console logging should not be used",
+            "category": "Portability",
+            "helpLink": "http:\/\/vs.sonarlint.org\/rules\/index.html#version=1.10.0&ruleId=S2228",
+            "isEnabledByDefault": "False"
+          }
+        }
+      ]
+    }
+  ]
+}

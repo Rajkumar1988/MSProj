@@ -1,0 +1,8 @@
+C:\Program Files (x86)\Jenkins\jobs\MicrosoftCodeCompilation\workspace\Setup\bin\Release\FirstWixProject.msi
+C:\Program Files (x86)\Jenkins\jobs\MicrosoftCodeCompilation\workspace\Setup\bin\Release\FirstWixProject.wixpdb
+obj\Release\Product.wixobj
+obj\Release\FirstWixProject.wixproj.BindContentsFileListnull.txt
+obj\Release\FirstWixProject.wixproj.BindOutputsFileListnull.txt
+obj\Release\FirstWixProject.wixproj.BindBuiltOutputsFileListnull.txt
+E:\Calculator\Setup\bin\Release\FirstWixProject.msi
+E:\Calculator\Setup\bin\Release\FirstWixProject.wixpdb

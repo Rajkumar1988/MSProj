@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi" xmlns:iis="http://schemas.microsoft.com/wix/IIsExtension"  xmlns:util="http://schemas.microsoft.com/wix/UtilExtension" >
+	<Product Id="*" Name="Calculator" Language="1033" Version="1.0.0.0" Manufacturer="Mindtree" UpgradeCode="c340011d-65bc-48d9-9b18-44a44692c788">
+		
+    <Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
+
+    <Media Id ="1" Cabinet ="ApplicationContents.cab" EmbedCab="yes"/>
+
+    <InstallExecuteSequence>
+      <RemoveExistingProducts After='InstallInitialize' />
+    </InstallExecuteSequence>
+
+   
+		<Feature Id="ProductFeature" Title="Calculator" Level="1">
+      <ComponentGroupRef Id="ProductComponents" />
+      <ComponentRef Id ="ProductRegistryEntry"/>
+		</Feature>
+
+    <Property Id="ROOTDRIVE" Value="C:\"></Property>
+    <Property Id="ARPNOMODIFY" Value="1"></Property>
+    
+    <Upgrade Id='c340011d-65bc-48d9-9b18-44a44692c788'>
+      <UpgradeVersion Minimum='0.0.0.0' IncludeMinimum='yes' Maximum='127.254.32767.255' IncludeMaximum='yes' Property='UPGRADEFOUND' />
+    </Upgrade>
+    
+	</Product>
+
+	<Fragment>
+		<Directory Id="TARGETDIR" Name="SourceDir">
+          <Directory Id="INSTALLFOLDER" Name="CalculatorDeploy" >
+
+            <Component Id="ProductRegistryEntry" Guid="*">
+              <!--GUID can be a * becuase major upgrades don't care about same GUIDS.-->
+              <RegistryKey Root="HKLM" Key="Software\Tesco.com\Deployed\Calculator" Action="createAndRemoveOnUninstall">
+                <RegistryValue Type="string" Name="ProductCode" Value="[ProductCode]" KeyPath="yes"/>
+                <RegistryValue Type="string" Name="ProductVersion" Value="[ProductVersion]"/>
+                <RegistryValue Type="string" Name="Label" Value="BuildVersionLabel"/>
+              </RegistryKey>
+            </Component>
+        </Directory>
+        </Directory>
+	</Fragment>
+
+	<Fragment>
+		<ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">
+      <Component Id="BaseFiles" Guid="8f51ad44-0ae6-40f9-87ee-46e847427fe9" DiskId="1" KeyPath="yes">
+        <File Id="BaseFilesFile0" Name="Calculator.exe" Source="$(var.SolutionDir)\Calculator\obj\Release\Calculator.exe" Vital="yes" />
+      </Component>
+		</ComponentGroup>
+	</Fragment>
+  
+</Wix>

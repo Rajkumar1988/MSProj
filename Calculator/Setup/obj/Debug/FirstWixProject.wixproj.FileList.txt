@@ -1,0 +1,6 @@
+E:\Calculator\Setup\bin\Debug\FirstWixProject.msi
+E:\Calculator\Setup\bin\Debug\FirstWixProject.wixpdb
+obj\Debug\Product.wixobj
+obj\Debug\FirstWixProject.wixproj.BindContentsFileListnull.txt
+obj\Debug\FirstWixProject.wixproj.BindOutputsFileListnull.txt
+obj\Debug\FirstWixProject.wixproj.BindBuiltOutputsFileListnull.txt

@@ -1,0 +1,5 @@
+projectKey=MicrosftDemo
+serverUrl=http://cldprodmgt0043.corpzone.internalzone.com:9000
+dashboardUrl=http://cldprodmgt0043.corpzone.internalzone.com:9000/dashboard/index/MicrosftDemo
+ceTaskId=AVRwOfySVuLVSKLLRWxa
+ceTaskUrl=http://cldprodmgt0043.corpzone.internalzone.com:9000/api/ce/task?id=AVRwOfySVuLVSKLLRWxa

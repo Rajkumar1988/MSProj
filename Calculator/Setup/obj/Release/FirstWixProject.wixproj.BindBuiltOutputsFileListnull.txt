@@ -1,0 +1,2 @@
+E:\Calculator\Setup\bin\Release\FirstWixProject.msi
+E:\Calculator\Setup\bin\Release\FirstWixProject.wixpdb
